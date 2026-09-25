@@ -1,8 +1,9 @@
 import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
 import About from './components/About.jsx'
+import Skills from './components/Skills.jsx'
 import Footer from './components/Footer.jsx'
-import { persona, secciones } from './data.js'
+import { persona, secciones, habilidades } from './data.js'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           ubicacion={persona.ubicacion}
         />
         <About />
+        <Skills habilidades={habilidades} />
       </main>
       <Footer
         nombre={persona.nombre}

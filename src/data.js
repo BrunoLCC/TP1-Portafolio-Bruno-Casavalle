@@ -12,3 +12,12 @@ export const secciones = [
   { id: 'proyectos', titulo: 'Proyectos' },
   { id: 'contacto', titulo: 'Contacto' },
 ]
+
+export const habilidades = [
+  { id: 1, nombre: 'HTML', nivel: 'Avanzado' },
+  { id: 2, nombre: 'CSS', nivel: 'Avanzado' },
+  { id: 3, nombre: 'JavaScript', nivel: 'Intermedio' },
+  { id: 4, nombre: 'React', nivel: 'Inicial' },
+  { id: 5, nombre: 'Git y GitHub', nivel: 'Intermedio' },
+  { id: 6, nombre: 'SQL', nivel: 'Intermedio' },
+]
