@@ -2,8 +2,9 @@ import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
 import About from './components/About.jsx'
 import Skills from './components/Skills.jsx'
+import Projects from './components/Projects.jsx'
 import Footer from './components/Footer.jsx'
-import { persona, secciones, habilidades } from './data.js'
+import { persona, secciones, habilidades, proyectos } from './data.js'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         />
         <About />
         <Skills habilidades={habilidades} />
+        <Projects proyectos={proyectos} />
       </main>
       <Footer
         nombre={persona.nombre}
